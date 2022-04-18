@@ -1,8 +1,9 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'ui-root',
-  template: `<router-outlet></router-outlet>`,
+  selector: 'main-view',
+  templateUrl: 'main.view.html',
+  styleUrls: ['./main.view.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class RootComponent {}
+export class MainView {}

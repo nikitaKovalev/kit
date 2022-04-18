@@ -1,0 +1,32 @@
+@use "src/styles/mixins/box-shadow" as mixin;
+
+$transition: 1s ease-in-out;
+$width: 16.25rem;
+$padding-x: 1.5rem;
+$line-height: 2.25rem;
+.navigation-wrapper {
+  @include mixin.box-shadow(1);
+  height: 100vh;
+  max-height: 100vh;
+  width: $width;
+  background-color: var(--page);
+  transition: hover $transition;
+}
+
+.navigation-item {
+  display: block;
+  text-decoration: none;
+  color: var(--text-base);
+  padding-left: $padding-x;
+  line-height: $line-height;
+}
+
+.navigation-item--active {
+  background-color: var(--block-hover);
+  color: var(--primary);
+}
+.navigation-item:hover:not(.navigation-item--active) {
+  background-color: var(--page-secondary);
+  color: var(--text-base);
+}
+

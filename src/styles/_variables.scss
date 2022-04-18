@@ -1,0 +1,25 @@
+:root {
+  // Theme palette
+  --primary: #2b53cb;
+  --primary-hover: #7388db;
+  --primary-active: #002395;
+  --accent: #25996f;
+  --accent-hover: #59b996;
+  --accent-active: #04502e;
+  --warn: #cf441a;
+  --warn-hover: #f77046;
+  --warn-active: #b53913;
+  --page: #fff;
+  --page-secondary: #f6f6f6;
+  --block: #f4f4f4;
+  --block-hover: #dfdfdf;
+  // Font
+  --text-base: #1f2338;
+  --text-inactive: rgba(31, 35, 56, 0.4);
+  // Typography
+  --font-family: "Roboto", "Segoe UI", "Helvetica Neue", sans-serif;
+  --heading-font: "Roboto", "Segoe UI", "Helvetica Neue", sans-serif;
+  --text-font: "Roboto", "Segoe UI", "Helvetica Neue", sans-serif;
+  --font-heading: var(--font-heading);
+  --font-text: var(--text-font);
+}

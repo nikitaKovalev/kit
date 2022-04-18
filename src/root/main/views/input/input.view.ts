@@ -1,8 +1,7 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'ui-root',
-  template: `<router-outlet></router-outlet>`,
+  templateUrl: 'input.view.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class RootComponent {}
+export class InputView {}
